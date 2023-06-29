@@ -1,0 +1,48 @@
+*{
+  box-sizing:border-box
+}
+
+.main{
+  color:white;
+  display:flex;
+  flex:1;
+  gap:1rem;
+  min-height:100vh;
+  justify-content:center;
+  text-align:center;
+  padding:1rem;
+}
+
+.key{
+  background: rgba(0,0,0,0.4);
+  text-align:center;
+  justify-content:center;
+  border:.4rem solid black;
+  border-radius:0.5rem;
+  padding:1rem 0.5rem;
+  font-size:1.5rem;
+  text-shadow: 0 0 .5rem black;
+  width:10rem;
+  height:9rem;
+  top:40%;
+  transition: all .07s;
+  margin:auto;
+}
+
+kbd{
+  display:block;
+  font-size:4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
+
+.playing{
+  transform: scale(1.1);
+  border-color:#ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
